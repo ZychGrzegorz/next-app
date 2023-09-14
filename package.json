@@ -1,5 +1,5 @@
 {
-	"$schema": "http://json-schema.org/draft-04/schema#",
+	"$schema": "https://json.schemastore.org/package.json",
 	"name": "next-app",
 	"version": "0.1.0",
 	"private": true,
