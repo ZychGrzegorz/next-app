@@ -1,13 +1,14 @@
-import Link from "next/link";
+import { ProductList } from "@/ui/organisms/ProductList"
 
-export default function Home() {
+const Products = () => {
 	return (
-
 		<main className="flex min-h-screen items-center justify-between">
 			<section className="container mx-auto">
-
-				<Link href="/products" >Products</Link>
+				<ProductList />
 			</section>
 		</main>
-	);
+	)
 }
+
+
+export default Products

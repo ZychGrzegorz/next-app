@@ -17,6 +17,7 @@ export const ProductListItem = ({
 }: ProductListItem) => {
 	return (
 		<li >
+			<h3>Product</h3>
 			<article className="rounded-lg bg-gray-100 p-6">
 				<ProductCoverImage src={src} alt={alt} />
 				<ProductListItemDescription description={description} />

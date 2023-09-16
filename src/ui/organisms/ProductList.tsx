@@ -29,8 +29,6 @@ const productsData = [
 ];
 
 
-//create function for selecting the shortest string from  array of strings and return it's length
-
 export const ProductList = () => {
 	return (
 		<ul
