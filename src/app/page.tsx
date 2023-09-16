@@ -1,11 +1,12 @@
-import { ProductList } from "@/ui/organisms/ProductList";
+import Link from "next/link";
 
 export default function Home() {
 	return (
 
 		<main className="flex min-h-screen items-center justify-between">
 			<section className="container mx-auto">
-				<ProductList />
+
+				<Link href="/products" >Products</Link>
 			</section>
 		</main>
 	);

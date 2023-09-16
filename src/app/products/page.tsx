@@ -1,6 +1,6 @@
 import { ProductList } from "@/ui/organisms/ProductList"
 
-export const Products = () => {
+const Products = () => {
 	return (
 		<main className="flex min-h-screen items-center justify-between">
 			<section className="container mx-auto">
@@ -9,5 +9,6 @@ export const Products = () => {
 		</main>
 	)
 }
+
 
 export default Products
